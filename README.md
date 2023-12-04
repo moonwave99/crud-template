@@ -4,6 +4,11 @@ This project is an app that renders services provided by users, and allows their
 
 ## API Endpoints
 
+They are organised in two files:
+
+- `/pages/api/services/index.js`: for the operations relative to the **list** of all services;
+- `/pages/api/services/[id].js`: for the operations relative to the **single** service.
+
 | Method | URL               | What it does          |
 |--------|-------------------|-----------------------|
 | GET    | /api/services     | Gets all services     |
